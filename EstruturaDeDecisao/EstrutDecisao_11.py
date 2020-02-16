@@ -33,7 +33,7 @@ valor_aumento = (salario*percentual) / 100
 novo_salario = salario + valor_aumento
 
 print("##### EXTRATO #####")
-print("Antigo Salário: R$", salario)
-print("Percentual de aumento aplicado:", percentual,"%")
-print("Valor do aumento recebido: R$", valor_aumento)
-print("Salário atualizado: R$", novo_salario)
+print(f"Antigo Salário: R${salario}")
+print(f"Percentual de aumento aplicado:, {percentual}%")
+print(f"Valor do aumento recebido: R${valor_aumento}")
+print(f"Salário atualizado: R$ {novo_salario}")
