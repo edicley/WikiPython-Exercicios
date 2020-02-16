@@ -1,2 +1,2 @@
 x = input("Digite um número: ")
-print("O número informado foi", x)
+print(f"O número informado foi {x}")

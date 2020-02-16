@@ -7,4 +7,4 @@ n4 = float(input("Informe sua 4ª nota: "))
 
 media = (n1 + n2 + n3 + n4) / 4
 
-print("Sua médial foi:" ,media)
+print(f"Sua médial foi:{media}")
