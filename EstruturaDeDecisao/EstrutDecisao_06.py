@@ -10,4 +10,3 @@ elif n2 > n1 and n2 > n3:
     print(n2, "é o maior dos três números.")
 else:
     print(n3, "é o maior dos três números.")
-    
