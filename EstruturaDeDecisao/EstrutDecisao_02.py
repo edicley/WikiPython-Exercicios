@@ -1,4 +1,4 @@
-#Verificando valor positivo ou negativo.
+# Verificando valor positivo ou negativo.
 
 n = int(input("Informe um número e direi se ele é positivo ou negativo: "))
 
