@@ -1,10 +1,10 @@
-'''
+"""
 Faça um Programa que leia 2 números e em seguida pergunte ao usuário qual operação ele deseja realizar.
 O resultado da operação deve ser acompanhado de uma frase que diga se o número é:
 par ou ímpar;
 positivo ou negativo;
 inteiro ou decimal.
-'''
+"""
 
 primero_numero = int(input('Informe o primeiro número: '))
 segundo_numero = int(input('Informe o segundo número: '))
@@ -17,6 +17,7 @@ print('Informe [ * ] para multipicar. ')
 print('Informe [ / ] para dividir.')
 
 operacao = input('Deseja realizar que operação? ')
+resultado = 0
 
 if operacao == '+':
     print('Você escolheu somar.')
@@ -45,4 +46,3 @@ else:
     mensagem += ' e decimal.'
 
 print(f'{resultado} {mensagem}')
-

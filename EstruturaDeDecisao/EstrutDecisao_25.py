@@ -1,4 +1,4 @@
-'''
+"""
 Faça um programa que faça 5 perguntas para uma pessoa sobre um crime. As perguntas são:
 
 "Telefonou para a vítima?"
@@ -10,7 +10,7 @@ Faça um programa que faça 5 perguntas para uma pessoa sobre um crime. As pergu
 O programa deve no final emitir uma classificação sobre a participação da pessoa no crime.
 Se a pessoa responder positivamente a 2 questões ela deve ser classificada como "Suspeita",
 entre 3 e 4 como "Cúmplice" e 5 como "Assassino". Caso contrário, ele será classificado como "Inocente".
-'''
+"""
 
 print('Estamos investigando um assassinato, tenho 5 perguntas para você. Responda [ 1 ] para SIM e [ 0 ] para NÃO.')
 pergunta_01 = int(input('Telefonou para a vítima? '))
